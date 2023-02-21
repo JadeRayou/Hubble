@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url('/✅\ huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1440px;
+    font-family: 'open sans';
+    color: #fff;
+    margin: 4em;
+}
+
+.logo{
+    margin-bottom: 5em;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+.image {
+    background-image: url("images/illustration-mockups.svg");
+    width: 50%;
+    min-width: 230px;
+    min-height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text {
+    width:30%;
+    min-width: 230px;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+h1{
+    font-family: 'poppins';
+    font-weight: 600;
+    font-size: 2.7em;
+}
+
+button{
+    color:hsl(257, 40%, 49%);
+    padding: 1em 4em 1em 4em;
+    margin-top: 2rem;
+    font-size: 1rem;
+    border-radius: 100px;
+    border: none;
+    box-shadow: 3px 3px 3px 3px hsl(257, 39%, 41%);
+}
+
+button:hover{
+    background-color: hsl(300, 69%, 71%);
+    color:#fff;
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    gap:1em;
+    margin: 4em;
+}
+
+.awsome{
+    font-size: 2rem;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    text-align: center;
+    padding: 5px 0 0 5px;
+}
+
+@media only screen and (max-width:375px){
+    section{
+
+    }
+}
+
